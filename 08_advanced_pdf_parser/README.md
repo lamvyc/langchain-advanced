@@ -67,6 +67,20 @@ pip install -r requirements.txt
 
 ## 🚀 快速开始
 
+### 运行演示
+
+**推荐：使用简化版演示（不依赖OCR）**
+```bash
+python demo_simple.py
+```
+
+**完整版演示（需要解决OCR依赖）**
+```bash
+python demo.py
+```
+
+> **注意**: 由于 PaddleOCR 与新版 LangChain 存在兼容性问题，推荐先使用 `demo_simple.py` 体验核心功能（表格提取、文本解析、智能分块）。
+
 ### 基础使用
 
 ```python
